@@ -3,7 +3,7 @@
 <head>
 <title><?php echo $title; ?></title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-<?php echo $this->Html->css('bootstrap.min'); ?>
+<?php echo $this->Html->css(array('bootstrap.min', 'forms')); ?>
 <?php echo $this->fetch('css'); ?>
 </head>
 <body>
@@ -27,7 +27,7 @@ le ici -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="{{ path('home') }}">Accueil</a>
+                        <a href="">Accueil</a>
                     </li>
                     <li>
                         <a href="">C.V</a>
@@ -39,13 +39,11 @@ le ici -->
 </header>
 
 <!-- Voilà l'endroit ou je souhaite que mes vues soient affichées -->
-<div class='container'>
 <?php echo $this->Session->flash(); ?>
 <?php echo $this->fetch('content'); ?>
-</div>
 <!-- Ajoute un footer sur chaque page affichée -->
 <div id="footer">...</div>
-<?php echo $this->Html->script('bootstrap.min'); ?>
+<?php echo $this->Html->script(array('jquery-3.3.1', 'bootstrap.min', 'scripts')); ?>
 <?php echo $this->fetch('script'); ?>
 </body>
 </html>

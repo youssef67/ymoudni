@@ -1,0 +1,28 @@
+.navbar-default
+{
+	background-color: white;
+	height: 8%;
+	margin-bottom: 0;
+}
+
+#cover
+{
+	padding-top: 0;
+	width: 100%;
+}
+
+.cover_container
+{
+	position: relative;
+}
+
+.cover_text
+{
+	position: absolute;
+	top: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
