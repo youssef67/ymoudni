@@ -5,7 +5,7 @@
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Muli:400,600,800" rel="stylesheet">
-		<?php echo $this->Html->css(array('bootstrap.min', 'forms')); ?>
+		<?php echo $this->Html->css(array('bootstrap.min', 'home')); ?>
 		<?php echo $this->fetch('css'); ?>
 	</head>
 	<!-- Si vous voulez afficher une sorte de menu pour toutes vos vues, mettez

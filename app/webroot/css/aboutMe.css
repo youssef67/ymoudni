@@ -1,0 +1,177 @@
+body, html
+{
+    height: 100%;
+}
+
+.resume
+{
+	background-image: url('../img/about_me.png');
+	height: 100%;
+	width: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.navbar-nav>li>a
+{
+    color: black;
+    background: white;
+    font-family: 'Muli', sans-serif;
+}
+
+.navbar-brand
+{
+    font-weight: bold;
+    color: black;
+    background: white;
+    font-family: 'Muli', sans-serif;
+    text-transform: uppercase;
+}
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    color: black;
+    background: white;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+    background: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+/*--------------------------------section résumé ------------------------------------------*/
+
+.titre_resume
+{
+    font-size: 36px;
+    color: white;
+    margin-top: 17%;
+    font-family: 'Muli', sans-serif;
+}
+
+.ml11
+{
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml11 .text-wrapper
+{
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  margin-left: 20%;
+}
+
+.ml11 .line
+{
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.text_resume
+{
+	margin-bottom: 15%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+p
+{
+	font-size: 1.5em;
+    color: white;
+    margin-top: 10%;
+    font-family: 'Muli', sans-serif;
+}
+
+/*------------------------------------ section expérience --------------------------------------*/
+
+/* titre section expérience*/
+
+.ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+  margin-left: 10%;
+	margin-right: 10%;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.parcours h2
+{
+	font-family: 'Muli', sans-serif;
+}
+
+.parcours p
+{
+	color:black;
+	font-family: 'Muli', sans-serif;
+}
+
+.titre_parcours
+{
+	color: black;
+	font-family: 'Muli', sans-serif;
+}
+
+.img-circle
+{
+	border: 3px solid black;
+}
+
+
+
+.center-block
+{
+	margin-top: 5%;
+	width: 40%;
+}
+
+
+/*------------------------------------ télécharger le CV --------------------------------------*/
+
+
+.telechargement p
+{
+  margin-top: 5%;
+  margin-bottom: -2%;
+}
+
+.btn
+{
+  font-size: 1em;
+  margin-bottom: 5%;
+}
